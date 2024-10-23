@@ -28,6 +28,11 @@ public static void main(String[] args)
     System.out.println(w.isWordChain());
 
 
+    ArrayList<String> words3 = new ArrayList<String>();
+    words3.add("ch");
+    words3.add("chacat");
+
+
 }
 }
 
