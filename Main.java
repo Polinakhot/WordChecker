@@ -27,10 +27,18 @@ public static void main(String[] args)
     System.out.println(words2);
     System.out.println(w.isWordChain());
 
-
+  
+    
     ArrayList<String> words3 = new ArrayList<String>();
-    words3.add("ch");
-    words3.add("chacat");
+    words3.add("catch");
+    words3.add("bobcat");
+    words3.add("catchacat");
+    words3.add("cat");
+    words3.add("at");
+    WordChecker z = new WordChecker(words3);
+    System.out.println(z.createList("cat"));
+    System.out.println(z.createList("catch"));
+    System.out.println(z.createList("dog"));
 
 
 }

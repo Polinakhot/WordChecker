@@ -27,7 +27,6 @@ public class WordChecker
         }
        return true;
     }
-
     
     public ArrayList<String> createList(String target) 
     {
